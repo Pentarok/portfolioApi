@@ -15,7 +15,7 @@
         "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept, Authorization",
         "Access-Control-Allow-Credentials": "true"
       },
-      "dest": "server.js"
+      "dest": "index.js"
     }
   ]
 }
