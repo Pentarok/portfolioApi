@@ -7,7 +7,7 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors({
-    origin:'https://portfolio-8ltz.vercel.app',
+    origin:'https://portfolio-dusky-nine-86.vercel.app',
     methods:["GET","POST"],
     credentials:true
 }))
