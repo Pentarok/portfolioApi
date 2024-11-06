@@ -30,7 +30,10 @@ const transporter = nodemailer.createTransport({
   });
 
 app.post('/message',(req,res)=>{
-    
+     if (req.method === 'OPTIONS') {
+    res.status(200).end()
+  
+  }
 try {
   const {name , email, message}=req.body;
     const mailOptions = {
